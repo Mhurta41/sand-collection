@@ -1,0 +1,40 @@
+nav {
+	color: white;
+	background-color: #05515a;
+	display: flex;
+	border-bottom: 1px solid #b8bbc2;
+	border-radius: 5px;
+	justify-content: space-evenly;
+}
+ul {
+	list-style-type: none;
+}
+
+h2 {
+	color: white;
+	margin: 5px;
+	font-size: 10px;
+}
+a {
+	text-decoration: none;
+}
+.nav-div {
+	display: flex;
+	align-items: flex-end;
+}
+.navbar-link {
+	text-align: center;
+	display: inline-block;
+}
+a:hover {
+	cursor: pointer;
+}
+.nav-div {
+	align-self: center;
+	margin-right: 10px;
+}
+.logo {
+	width: 15%;
+	flex: 1;
+	align-self: flex-start;
+}
