@@ -26,3 +26,21 @@ h1 {
 .card-link:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+a:active {
+	transform: translate(2px, 2px);
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	.cards-container {
+		flex-direction: column;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.card {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 3%;
+		margin-top: 3%;
+	}
+}
