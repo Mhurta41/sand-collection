@@ -1,0 +1,28 @@
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #b8bbc2;
+	border-radius: 2%;
+	flex: 0 1 calc(43% - 1em);
+	opacity: 0.8;
+	padding-bottom: 5%;
+	margin: 5% 0 5% 0;
+}
+.sand-image {
+	width: 50%;
+	border-radius: 2%;
+}
+
+h1 {
+	font-size: 15px;
+	color: #012627;
+}
+.card-link:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
